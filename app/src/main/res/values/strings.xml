@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Redux2048</string>
+    <string name="vanilla">Hold my hand</string>
+    <string name="medium">pssh, I got this</string>
+    <string name="ilmmp">I\'d like my mom please</string>
+    <string name="isyhcd">I have chosen death</string>
+    <string name="up">⇧</string>
+    <string name="down">⇩</string>
+    <string name="left">⇦</string>
+    <string name="right">⇨</string>
+    <string name="start">Start</string>
+    <string name="Winner">A WINNER IS YOU</string>
+    <string name="Instructions">Merge the tiles until you reach 2048</string>
+    <string name="above2048">You may proceed ahead, you glorious lad!</string>
+    <string name="lost">Game Over! Please tap Start to reset</string>
+</resources>
