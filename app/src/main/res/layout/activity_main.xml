@@ -252,6 +252,4 @@
         android:text="@string/start"
         app:layout_constraintStart_toStartOf="@+id/radioGroup"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
