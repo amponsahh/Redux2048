@@ -108,12 +108,12 @@ public class TwentyFortyEightGrid {
                 randValue = (((random.nextFloat() * (1.0 - 0) + 0) < 0.4) ? 2 : 4);
                 return randValue;
 
-            case 2: // ilmmp
+            case 2: //isyhcd
                 randValue = (((random.nextFloat() * (1.0 - 0) + 0) < 0.2) ? 2 :
                         (((random.nextFloat() * (1.0 - 0) + 0) < 0.3) ? 4 : 1));
                 return randValue;
 
-            case 3: // isyhcd
+            case 3: //ilmmp
                 randValue = (((random.nextFloat() * (1.0 - 0) + 0) < 0.08) ? 4 :
                         (((random.nextFloat() * (1.0 - 0) + 0) < 0.12) ? 2 : 1));
                 return randValue;
