@@ -1,2 +1,10 @@
 # Redux2048
-a recreation of Gabriele Cirulli's 2048 with custom difficulty levels
+Redux 2048 is a recreation of [Gabriele Cirulli](https://gabrielecirulli.com/)'s [2048](https://play2048.co/) which is based on [Veewo Studio's 1024](https://itunes.apple.com/us/app/1024!/id823499224) but with an added twist of difficulty levels. 
+<br /><br /> The goal is to merge number tiles on the grid until the user achieves a total of 2048 on any specific number tile granting a win. Filling up the grid without a number tile totaling 2048 is a loss. This particular recreation has variable custom difficulty settings that allow the user to control a seed that feeds the number tile generation and randomization algorithm:
+1. Option A: _Hold my hand_: <ul>This is the vanilla/default play style of 2048. 90% of the time a number tile 2 is generated, if not, a number tile 4.</ul>
+2. Option B: _pssh, i got this_: <ul>This option is what I'd call medium difficulty. 90% of the time a number tile 4 is generated, if not, a number tile 2. It can get crowed really quickly!</ul>
+3. Option C: _I have chosen death_: <ul>I have chosen death introduces the possibility of a third number tile. 20% of the time a number tile 2 is generated if not, 30% of the time, a number tile 4 is generated and if not 50% of the time, a number tile 1. You did this to you.</ul>
+4. Option D: _I'd like my mom please_: <ul>This option doesn't look threatening on paper but I promise you, it is aptly named. 8% of the time a number tile 4 is generated if not, 12% of the time, a number tile 2 is generated and if not 80% of the time, a number tile 1. You'd think a lot of number tile 1 means more combinations but it actually serves as points of barriers between larger number tiles, how do you merger a number tile 16 and a number tile 1?</ul>
+
+![I'd like my mom please](https://raw.githubusercontent.com/namponsah/Redux2048/main/app/src/main/assets/ilmmp.jpg "I'd like my mom please option")            
+![pssh, I got this](https://raw.githubusercontent.com/namponsah/Redux2048/main/app/src/main/assets/pigt.jpg "pssh, I got this option")
